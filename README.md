@@ -1,7 +1,7 @@
 # LLM_SC_audits
 
-## prerequist : (slither) (https://github.com/crytic/slither) installed
-**generate call graph from smart contract : 
+**prerequist** : [slither] (https://github.com/crytic/slither) installed
+generate call graph from smart contract : 
 ```
    chmod +x functionCall.sh
    ./functionCall.sh $path_to_smartContract
