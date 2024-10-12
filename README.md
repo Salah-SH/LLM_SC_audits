@@ -2,6 +2,8 @@
 
 **prerequist** : [slither](https://github.com/crytic/slither) installed
 
+
+**this is the dataset used for experiments in the paper** [Co-Auditing Smart Contracts] (https://arxiv.org/abs/2406.18075)
 generate call graph from smart contract : 
 ```
    chmod +x functionCall.sh
