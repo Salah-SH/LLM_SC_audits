@@ -7,9 +7,9 @@ import csv
 import pandas as pd
 import re
 
-#filename=sys.argv[1]
-
-filenameroot=f"40.sol"
+####input the smart contract file name
+filenameroot=sys.argv[0]
+# filenameroot=f"40.sol"
 
 dot_graph = pydot.graph_from_dot_file(f"{filenameroot}.all_contracts.call-graph.dot")[0]
 contract_names = []
